@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(22, 221, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    text-align: center;
+}
+
+select {
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#num1,
+#num2 {
+    width: 5cm;
+    height: 1cm;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 5cm;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
